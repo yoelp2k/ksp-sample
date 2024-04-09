@@ -1,3 +1,36 @@
-/build
-/.gradle
-*/build
+# Gradle related
+.gradle/
+build/
+
+# Build output directories
+*/build/
+
+# IntelliJ IDEA related
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# OS related
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.db
+
+# Dependency directories (uncomment if you're not including libs in your repository)
+# /libs/
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Uncomment to exclude any text files, add specific files if needed
+# *.txt
+
+# Local configuration file (remove it if you wish to ignore local.properties file for android build)
+# local.properties
+
+# If you are using macOS, you might want to ignore any .DS_Store files throughout your repository by adding the following line:
+.DS_Store/
