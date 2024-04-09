@@ -4,8 +4,8 @@ pluginManagement {
         google()
     }
     plugins {
-        id("com.google.devtools.ksp") version "1.5.31-1.0.0"
-        kotlin("jvm") version "1.5.31"
+        id("com.google.devtools.ksp") version "1.8.0-1.0.9"
+        kotlin("jvm") version "1.8.0"
     }
 }
 
